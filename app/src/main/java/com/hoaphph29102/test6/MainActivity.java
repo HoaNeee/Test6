@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         btnAdd = findViewById(R.id.btn_add);
 
 
-
-        listKH.add(new KhachHang("1","hoa",20,"0393911183"));
+// vua cap nhat
+        listKH.add(new KhachHang("1","hoaa",20,"0393911183"));
         listKH.add(new KhachHang("2","hoang",20,"0393911183"));
         listKH.add(new KhachHang("3","linh",20,"0393911183"));
         listKH.add(new KhachHang("4","hung",20,"0393911183"));
