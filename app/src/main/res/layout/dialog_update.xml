@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="sửa"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/ed_ma_kh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ma khach hang"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/ed_ten_kh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ho ten"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/ed_tuoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="tuoi"
+        android:background="@drawable/edit_text"
+
+        />
+    <EditText
+        android:id="@+id/ed_sdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="sdt"
+        android:background="@drawable/edit_text"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:layout_marginRight="50dp"
+            />
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>
